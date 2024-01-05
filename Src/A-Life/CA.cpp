@@ -13,7 +13,7 @@ void CA::Step()
 	// "draw" onto buffer
 	Write<uint8_t>(buffer, size.x / 2, 0, 1);
 
-	static uint8_t rule = 82;
+	static uint8_t rule = 125;
 
 	for (int y = 0; y < size.y - 1; y++) {
 		for (int x = 0; x < size.x; x++) {
